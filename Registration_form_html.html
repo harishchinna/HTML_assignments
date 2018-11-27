@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <style>
+   label
+   {
+       font-size:28px;
+       color:orange;
+   }
+   .one
+   {
+       font-size:26px;
+       border-radius: 20px;
+   }
+   body
+   {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   }
+   input
+   {
+       font-size:24px;
+       border-radius:20px;
+   }
+  </style>
+</head>
+<body>
+    <form autocomplete="on" method="POST">
+    <h1 align="center">Registration Form</h1>
+    <div>
+    <table align="center">
+        <tr>
+            <td><label>First Name:</label></td>
+            <td><input type="text" name="Fname" value="" required autofocus > </td>
+        </tr>
+        <tr>
+            <td><label>Last Name:</label></td>
+            <td><input type="text" name="Lname" value="" required> </td>
+        </tr>
+        <tr>
+            <td><label>Address:</label></td>
+            <td><textarea rows="5" cols="21" name="Address" value="" required></textarea> </td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" name="Email" value="" required> </td>
+        </tr>
+        <tr>
+                <td><label>State:</label></td>
+                <td>
+                    <select>
+                            <option value="Select"></option> 
+                        <option value="Andhra Pradesh">Andhra Pradesh</option> 
+                        <option value="Karnataka">Karnataka</option> 
+                        <option value="Tamil Nadu">Tamil Nadu</option> 
+                        <option value="Maharastra">Maharastra</option> 
+                        <option value="Kerala">Kerala</option> 
+                    </select>
+                </td>
+            </tr>
+        <tr>
+            <td><label>City:</label></td>
+            <td>
+                <select required>
+                        <option value="Select"></option> 
+                    <option value="hyderabad">Hyderabad</option> 
+                    <option value="Banglore">Banglore</option> 
+                    <option value="Chennai">Chennai</option> 
+                    <option value="Mumbai">Mumbai</option> 
+                    <option value="Cochi">Cochi</option> 
+                </select>
+            </td>
+        </tr>
+        <tr>
+                <td><label>University Branch Name:</label></td>
+                <td><input type="text" name="University Branch Name" value="" required> </td>
+            </tr>
+            <tr>
+                    <td><label>Phone Number:</label></td>
+                    <td><input type="tel" name="Mobile number" value="" required pattern="[0-9]{10}"> </td>
+                </tr>
+                <tr>
+                        <td><label>Enrolled Course:</label></td>
+                        <td>
+                            <select>
+                                    <option value=""></option>
+                                <option value="BTECH">BTECH</option>
+                                <option value="MTECH">MTECH</option>
+                                <option value="BIOTECH">BIOTECH</option>
+                                <option value="B.E">B.E</option>
+                                <option value="DEGREE">DEGREE</option>
+                            </select>
+                             </td>
+                    </tr>
+                    <tr>
+                            <td><label>Date Of Test:</label></td>
+                            <td><input type="date" name="Date Of Test" value="" required> </td>
+                        </tr>
+                        <tr>
+                                <td><label>Test Marks:</label></td>
+                                <td><input type="number" name="Marks" value="" required min=50 max=100> </td>
+                            </tr>
+                            <tr>
+                                <td ><input class="one" type="submit" name="submit" value="SUBMIT"> </td>
+                                <td ><input class="one" type="RESET" name="RESET" value="RESET"> </td>
+                                </tr>
+    </table>
+    </div>
+</form>
+</body>
+</html>
