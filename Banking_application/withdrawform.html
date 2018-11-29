@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Withdraw Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <style>
+                label
+                {
+                    font-size:28px;
+                    color:orange;
+                    line-height: 70px;
+                    
+                }
+                .one
+                {
+                    font-size:26px;
+                    border-radius: 20px;
+                    position: absolute;
+                    left:600px;
+                }
+                
+                input
+                {
+                    font-size:24px;
+                    border-radius:20px;
+                }
+                form
+                {
+                    background-image: url("scenary1.jpg");
+                 background-repeat: no-repeat;
+                 background-size: cover;   
+                 width:1408px;
+                 height:570px;
+                 position: absolute;
+                 top:150px;
+                }
+                </style>
+</head>
+<body>
+    <a id="lin" href="Homepage.html"> <img src="HDFC_Bank_logo.png" alt="HDFC Bank Logo" width="200px" height="50px"></a>
+        <h1 style="text-align: center;color:navy">HDFC BANK</h1>
+        <nav>
+                <a href="AddNewAccount.html" target="_blank">Add New Account</a>
+                <a href="SearchAccount.html" target="_self">Search Account</a>
+                <a href="viewaccount.html" target="_self">View Account</a>
+                <a href="viewallcustomers.html" target="_self">View All Customers</a>
+                <a href="updatecustomerform.html" target="_self">Update Customer Form</a>
+                <a href="withdrawform.html" target="_self">Withdraw Form</a>
+                <a href="depositform.html" target="_self">Deposit Form</a>
+                <a href="fundstransfer.html" target="_self">Fund Transfer</a>
+            </nav>
+        <form autocomplete="on" method="POST" >
+                <h1 align="center">withdraw Form</h1>
+                <div>
+                <table align="center">
+                    <tr>
+                        <td><label>Account Number:</label></td>
+                        <td><input type="text" placeholder="Enter Account No" name="Account Number" value="" required autofocus ><br> </td>
+                    </tr>
+                    <tr>
+                            <td><label>Amount Withdraw:</label></td>
+                            <td><input type="text" placeholder="Enter Amount" name="Amount withdraw" value="" required ><br> </td>
+                        </tr>
+                    <tr>
+                            <td ><input class="one" type="submit" name="submit" value="WITHDRAW"> </td>
+                            </tr>
+                            </table>
+                            </div>
+                            </form>
+                            <footer>
+                                    <h2>© 2018 HDFC Bank Ltd. All rights reserved.</h2>
+                                </footer> 
+</body>
+</html>

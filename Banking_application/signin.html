@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>SIGN UP</title>
+       <style>
+           #lin
+        {
+            float:left;
+            position: absolute;
+            top:15px;
+                }
+           label
+                {
+                    font-size:28px;
+                    color:orange;
+                    line-height: 70px;
+                    
+                }
+                .one
+                {
+                    font-size:26px;
+                    
+                    position: absolute;
+                    left:700px;
+                }
+                
+                input
+                {
+                    font-size:24px;
+                }
+                div
+            {
+                background-image: url("hdfc1.jpg");
+                 background-repeat: no-repeat;
+                 background-size: cover;   
+                 width:1408px;
+                 height:620px;
+                 position: absolute;
+                 top:90px;
+            }
+            footer
+        {
+            position:absolute;
+            top:720px;
+             background-color: navy;
+            width:1409px;
+            color: azure;
+            text-align: center;
+        }
+       </style>
+</head>
+<body>
+        <a id="lin" href="#"> <img src="HDFC_Bank_logo.png" alt="HDFC Bank Logo" width="200px" height="50px"></a>
+        <h1 style="text-align: center;color:navy">HDFC BANK</h1>
+        <hr>
+       <div>
+            <h1 style="font-size: 50px;text-align: center">SIGN IN</h1>
+        <form autocomplete="on" method="POST">
+    <table align="center">
+        <tr>
+            <td><label>User Name:</label></td>
+           <td> <input type="text" placeholder="Enter Your User Name" name="Uname" value="" autofocus pattern="[A-Za-z0-9_]{1,15}"></td>
+        </tr>
+        <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" placeholder="Enter Your Password" name="pwd" value=""></td>
+            </tr>
+            <tr>
+                    <td><input class="one" type="submit" name="Submit" value="LOGIN" formaction="Homepage.html"></td>
+                </tr>
+    </table>
+    </form>
+</div>
+<footer>
+        <h2>© 2018 HDFC Bank Ltd. All rights reserved.</h2>
+    </footer>
+    
+</body>
+</html>
